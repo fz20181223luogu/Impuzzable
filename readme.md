@@ -7,7 +7,7 @@ There are 25 levels to challenge, with board sizes of 3x3, 3x4 and 4x4
 # To start the program
 Make sure you have [Python](https://www.python.org) and [pygame](https://www.pygame.org) installed on your computer.
 
-The font used by the game is provided, you can run the game without that font and use default font instead.
+The font used by the game is `avenirltproheavy`, you can run the game without that font and use default font instead.
 
 Then run `game.py` to start the game. Make sure the program is being run at the folder where `Puzzle.py`, `Generator.py`, `level.json`, and `pattern.json` are located, as the game relies on these files.
 
@@ -27,7 +27,7 @@ Click `back` button to go back to main page.
 # Game page
 
 Click the selection area (grid at the right side) to select pieces.
-* Selected piece are higlighted in green.
+* Selected piece are highlighted in green.
 * if a selected piece is clicked, such piece will rotate $90^\circ$ anticlockwise. A reminder that you cannot flip a piece in this game.
 * Click a blank place to deselect any piece.
 
@@ -53,7 +53,7 @@ The game uses `Puzzle.py` and  `Generator.py` for puzzle-related support and lev
 
 Functions and classes in these files can also be called individually as tools. Further details please refer to the docstring of each function.
 
-## Input specificatons
+## Input specifications
 The `Puzzle.py` follows following input specifications:
 * First line consists two integers $n$ and $m$, as the height and width of the puzzle.
 * For the following $n\times m$ lines, each line consist of $4$ integers, as the up, right, down, and left side's concave shape id
